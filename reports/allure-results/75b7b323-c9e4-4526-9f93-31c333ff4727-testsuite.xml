@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597145400688' stop='1597145452073'>
+    <name>Test Contact Us form WebdriverUni</name>
+    <title>Test Contact Us form WebdriverUni</title>
+    <test-cases>
+        <test-case start='1597145400697' status='broken' stop='1597145416556'>
+            <name>Should be able to submit a successful submission via contact us form</name>
+            <title>Should be able to submit a successful submission via contact us form</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: browser.getText is not a function</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: browser.getText is not a function
+                    at C:\esh\Seneca\webdriverio-test\node_modules\webdriverio\build\commands\browser\waitUntil.js:40:11
+                    at async Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at ContactUs_Page.confirmSuccessfulSubmission (C:\esh\Seneca\webdriverio-test\test\pageobjects\ContactUs_Page.js:47:42)
+                    at ContactUs_Page.submitAllInformationViaContactUsForm (C:\esh\Seneca\webdriverio-test\test\pageobjects\ContactUs_Page.js:42:8)
+                    at Context.&lt;anonymous> (C:\esh\Seneca\webdriverio-test\test\specs\contactUsPageTest.js:9:19)
+                    at Context.executeSync (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597145416558' status='broken' stop='1597145428646'>
+            <name>Should not be able to submit a successful submission via contact us form as all fields are required</name>
+            <title>Should not be able to submit a successful submission via contact us form as all fields are required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: browser.getText is not a function</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: browser.getText is not a function
+                    at C:\esh\Seneca\webdriverio-test\node_modules\webdriverio\build\commands\browser\waitUntil.js:40:11
+                    at async Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at ContactUs_Page.confirmUnsuccessfulSubmission (C:\esh\Seneca\webdriverio-test\test\pageobjects\ContactUs_Page.js:55:42)
+                    at Context.&lt;anonymous> (C:\esh\Seneca\webdriverio-test\test\specs\contactUsPageTest.js:18:19)
+                    at Context.executeSync (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597145428646' status='broken' stop='1597145440493'>
+            <name>Should not be able to submit a successful submission via contact us form as all fields are required</name>
+            <title>Should not be able to submit a successful submission via contact us form as all fields are required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: browser.getText is not a function</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: browser.getText is not a function
+                    at C:\esh\Seneca\webdriverio-test\node_modules\webdriverio\build\commands\browser\waitUntil.js:40:11
+                    at async Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at ContactUs_Page.confirmUnsuccessfulSubmission (C:\esh\Seneca\webdriverio-test\test\pageobjects\ContactUs_Page.js:55:42)
+                    at Context.&lt;anonymous> (C:\esh\Seneca\webdriverio-test\test\specs\contactUsPageTest.js:26:19)
+                    at Context.executeSync (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597145440493' status='broken' stop='1597145452070'>
+            <name>Should not be able to submit a successful submission via contact us form as all fields are required</name>
+            <title>Should not be able to submit a successful submission via contact us form as all fields are required</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: browser.getText is not a function</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: browser.getText is not a function
+                    at C:\esh\Seneca\webdriverio-test\node_modules\webdriverio\build\commands\browser\waitUntil.js:40:11
+                    at async Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at ContactUs_Page.confirmUnsuccessfulSubmission (C:\esh\Seneca\webdriverio-test\test\pageobjects\ContactUs_Page.js:55:42)
+                    at Context.&lt;anonymous> (C:\esh\Seneca\webdriverio-test\test\specs\contactUsPageTest.js:33:19)
+                    at Context.executeSync (C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\esh\Seneca\webdriverio-test\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

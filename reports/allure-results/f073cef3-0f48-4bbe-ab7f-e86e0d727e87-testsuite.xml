@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597142839056' stop='1597142863467'>
+    <name>Test that the button is clickable ince the Ajax loader completes loading</name>
+    <title>Test that the button is clickable ince the Ajax loader completes loading</title>
+    <test-cases>
+        <test-case start='1597142839057' status='broken' stop='1597142849065'>
+            <name>Attempt to click the button asap</name>
+            <title>Attempt to click the button asap</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 10000ms exceeded. The execution in the test "Test that the button is clickable ince the Ajax loader completes loading Attempt to click the button asap" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\esh\Seneca\webdriverio-test\test\specs\Allure_ajaxClickTest.js)</message>
+                <stack-trace>Error: Timeout of 10000ms exceeded. The execution in the test "Test that the button is clickable ince the Ajax loader completes loading Attempt to click the button asap" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\esh\Seneca\webdriverio-test\test\specs\Allure_ajaxClickTest.js)
+                    at Test.Runnable._timeoutError (C:\esh\Seneca\webdriverio-test\node_modules\mocha\lib\runnable.js:426:10)
+                    at Timeout.&lt;anonymous> (C:\esh\Seneca\webdriverio-test\node_modules\mocha\lib\runnable.js:238:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597142849067' status='passed' stop='1597142863464'>
+            <name>Attempt to click the button after 7 seconds</name>
+            <title>Attempt to click the button after 7 seconds</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,16 @@
+npm i --save-dev @wdio/cli
+for sync install
+npm i --save-dev @wdio/sync
+
+
+npx wdio wdio.conf.js     //runs all test files in   .\test\specs
+
+$ npx wdio wdio.conf.js --spec ./test/specs/basic.js    // runs only one file basic.js	
+
+$ npx wdio wdio.conf.js --exclude ./test/specs/example.e2e.js   
+ // excludes file example.e2e.js and run remaining test files 
+
+$npx wdio wdio.conf.js --spec ./test/specs/signup.js --spec ./test/specs/forgot-password.js //runs two files signup.js and password.js
+
+
+www.npmjs.com/package/sync-request
