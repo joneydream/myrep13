@@ -14,3 +14,8 @@ $npx wdio wdio.conf.js --spec ./test/specs/signup.js --spec ./test/specs/forgot-
 
 
 www.npmjs.com/package/sync-request
+
+wdio.conf.js
+
+scripts
+"test": "echo \"Error: no test specified\" && exit 1"

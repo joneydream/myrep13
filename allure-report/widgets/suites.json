@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "450c6ac550aef18842935d0f415f6ad6",
+    "name" : "Chai assertions",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 1,
+      "total" : 2
+    }
+  } ]
+}

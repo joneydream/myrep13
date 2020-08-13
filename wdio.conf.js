@@ -155,7 +155,8 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: timeout
+        timeout: timeout,
+		require: ['@babel/register'],
     },
     //
     // =====
@@ -199,8 +200,16 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
      before: function (capabilities, specs) {
-		expect = require('chai').expect;
+		require('@babel/register');
+        expect = require('chai').expect;
         should = require('chai').should();
+        browser.addCommand("getUrlAndTitle", function () {
+            // `this` refers to the `browser` scope
+            return {
+                url: this.getUrl(),
+                title: this.getTitle()
+            };
+        });
      },
     /**
      * Runs before a WebdriverIO command gets executed.
@@ -225,7 +234,8 @@ exports.config = {
      * beforeEach in Mocha)
      */
     // beforeHook: function (test, context) {
-    // },
+	
+    //},
     /**
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
      * afterEach in Mocha)

@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597299704192' stop='1597299714778'>
+    <name>Chai assertions</name>
+    <title>Chai assertions</title>
+    <test-cases>
+        <test-case start='1597299704192' status='undefined'>
+            <name>Test webdriveruni login portal</name>
+            <title>Test webdriveruni login portal</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597299704193' status='passed' stop='1597299714775'>
+            <name>"before each" hook for "Test webdriveruni login portal"</name>
+            <title>"before each" hook for "Test webdriveruni login portal"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

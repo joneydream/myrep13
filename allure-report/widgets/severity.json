@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e3658b056255ea4e",
+  "name" : "\"before each\" hook for \"Test webdriveruni login portal\"",
+  "time" : {
+    "start" : 1597299704193,
+    "stop" : 1597299714775,
+    "duration" : 10582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c40518c6fdcc6f59",
+  "name" : "Test webdriveruni login portal",
+  "time" : {
+    "start" : 1597299704192,
+    "stop" : 0,
+    "duration" : -1597299704192
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+} ]

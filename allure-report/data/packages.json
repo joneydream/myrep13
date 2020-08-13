@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Chai assertions",
+    "children" : [ {
+      "name" : "Test webdriveruni login portal",
+      "uid" : "c40518c6fdcc6f59",
+      "parentUid" : "5c75b1b2abd8e818ca1cb263559a188e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1597299704192,
+        "stop" : 0,
+        "duration" : -1597299704192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "\"before each\" hook for \"Test webdriveruni login portal\"",
+      "uid" : "e3658b056255ea4e",
+      "parentUid" : "5c75b1b2abd8e818ca1cb263559a188e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597299704193,
+        "stop" : 1597299714775,
+        "duration" : 10582
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "5c75b1b2abd8e818ca1cb263559a188e"
+  } ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "c40518c6fdcc6f59",
+  "name" : "Test webdriveruni login portal",
+  "fullName" : "Chai assertions.Test webdriveruni login portal",
+  "historyId" : "efbb5cf771fee9ecc4d0b8db2bee305e",
+  "time" : {
+    "start" : 1597299704192,
+    "stop" : 0,
+    "duration" : -1597299704192
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Chai assertions"
+  }, {
+    "name" : "testClass",
+    "value" : "Chai assertions"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test webdriveruni login portal"
+  }, {
+    "name" : "package",
+    "value" : "Chai assertions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c40518c6fdcc6f59.json",
+  "parameterValues" : [ "chrome" ]
+}

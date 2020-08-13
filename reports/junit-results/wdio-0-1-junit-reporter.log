@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Test_Contact_Us_form_WebdriverUni" timestamp="2020-08-13T11:49:49" time="47.903" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Test Contact Us form WebdriverUni"/>
+      <property name="capabilities" value="chrome.84_0_4147_105.windows"/>
+      <property name="file" value=".\test\specs\contactUsPageTest.js"/>
+    </properties>
+    <testcase classname="chrome.84_0_4147_105.windows.Test_Contact_Us_form_WebdriverUni" name="Should_be_able_to_submit_a_successful_submission_via_contact_us_form" time="31.967">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/url - {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+RESULT: {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='first_name']"}
+RESULT: {"using":"css selector","value":"[name='first_name']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/1330b97f-f4c2-480b-9c7e-7d4d5e815ad8/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/1330b97f-f4c2-480b-9c7e-7d4d5e815ad8/value - {"text":"joe"}
+RESULT: {"text":"joe"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='last_name']"}
+RESULT: {"using":"css selector","value":"[name='last_name']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/7495b3cb-eb93-477e-94a9-f0c68bc7987c/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/7495b3cb-eb93-477e-94a9-f0c68bc7987c/value - {"text":"Blogs"}
+RESULT: {"text":"Blogs"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='email']"}
+RESULT: {"using":"css selector","value":"[name='email']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/122ab5e3-5f14-4523-af7a-6ebd043f23a9/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/122ab5e3-5f14-4523-af7a-6ebd043f23a9/value - {"text":"joe_blogs123@outlook.com"}
+RESULT: {"text":"joe_blogs123@outlook.com"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"textarea"}
+RESULT: {"using":"css selector","value":"textarea"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/42785055-8087-4892-a725-19564b7b180e/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/42785055-8087-4892-a725-19564b7b180e/value - {"text":"How are you?"}
+RESULT: {"text":"How are you?"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[type='submit']"}
+RESULT: {"using":"css selector","value":"[type='submit']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/3ca7eed6-7a19-4bba-be66-274980ab6284/click - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"#contact_reply h1"}
+RESULT: {"using":"css selector","value":"#contact_reply h1"}
+COMMAND: GET /session/17302a0bcddea2d435dd122ec2a23d68/element/c566adfa-69b9-44e6-8b7a-9cb0cd572a23/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.windows.Test_Contact_Us_form_WebdriverUni" name="Should_not_be_able_to_submit_a_successful_submission_via_contact_us_form_as_all_fields_are_required" time="5.536">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/url - {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+RESULT: {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='first_name']"}
+RESULT: {"using":"css selector","value":"[name='first_name']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/3be62954-b7b4-4e46-9b68-1eaa540d4533/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/3be62954-b7b4-4e46-9b68-1eaa540d4533/value - {"text":"Mike"}
+RESULT: {"text":"Mike"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='last_name']"}
+RESULT: {"using":"css selector","value":"[name='last_name']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/a266af04-2ef9-4d33-a54f-5273e00e384c/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/a266af04-2ef9-4d33-a54f-5273e00e384c/value - {"text":"Woods"}
+RESULT: {"text":"Woods"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='email']"}
+RESULT: {"using":"css selector","value":"[name='email']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/3a01e44a-08c5-44c6-9b11-a858001f0388/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/3a01e44a-08c5-44c6-9b11-a858001f0388/value - {"text":"mike_woods@mail.com"}
+RESULT: {"text":"mike_woods@mail.com"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[type='submit']"}
+RESULT: {"using":"css selector","value":"[type='submit']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/afde5375-2f5a-4c57-b95a-0a2ef6f4ad6d/click - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"body"}
+RESULT: {"using":"css selector","value":"body"}
+COMMAND: GET /session/17302a0bcddea2d435dd122ec2a23d68/element/ae80a007-efab-437a-b8cc-9c2abcc57838/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.windows.Test_Contact_Us_form_WebdriverUni" name="Should_not_be_able_to_submit_a_successful_submission_via_contact_us_form_as_all_fields_are_required" time="8.148">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/url - {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+RESULT: {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='first_name']"}
+RESULT: {"using":"css selector","value":"[name='first_name']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/e58e9876-9bba-4bfb-aab8-cd7d3e22b626/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/e58e9876-9bba-4bfb-aab8-cd7d3e22b626/value - {"text":"Sarah"}
+RESULT: {"text":"Sarah"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='email']"}
+RESULT: {"using":"css selector","value":"[name='email']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/3b397ac8-d424-45dc-a835-f0272d78da69/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/3b397ac8-d424-45dc-a835-f0272d78da69/value - {"text":"sarah_woods@mail.com"}
+RESULT: {"text":"sarah_woods@mail.com"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[type='submit']"}
+RESULT: {"using":"css selector","value":"[type='submit']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/4864f101-35d0-4e7c-b42f-d5f109fa7a48/click - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"body"}
+RESULT: {"using":"css selector","value":"body"}
+COMMAND: GET /session/17302a0bcddea2d435dd122ec2a23d68/element/f2681823-f00a-4d78-9fa4-21c7964c9b01/text - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="chrome.84_0_4147_105.windows.Test_Contact_Us_form_WebdriverUni" name="Should_not_be_able_to_submit_a_successful_submission_via_contact_us_form_as_all_fields_are_required" time="2.189">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/url - {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+RESULT: {"url":"http://www.webdriveruniversity.com/Contact-Us/contactus.html"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='last_name']"}
+RESULT: {"using":"css selector","value":"[name='last_name']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/d2d72d60-1a2b-4cea-a803-3935db9d704d/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/d2d72d60-1a2b-4cea-a803-3935db9d704d/value - {"text":"Jomes"}
+RESULT: {"text":"Jomes"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[name='email']"}
+RESULT: {"using":"css selector","value":"[name='email']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/17311854-7efd-4a51-b7a0-f3bb49783b80/clear - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/17311854-7efd-4a51-b7a0-f3bb49783b80/value - {"text":"sarah_Jomes@mail.com"}
+RESULT: {"text":"sarah_Jomes@mail.com"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"[type='submit']"}
+RESULT: {"using":"css selector","value":"[type='submit']"}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element/9b225fc5-2ea7-4914-99bd-7bc5e30f2790/click - {}
+RESULT: {}
+COMMAND: POST /session/17302a0bcddea2d435dd122ec2a23d68/element - {"using":"css selector","value":"body"}
+RESULT: {"using":"css selector","value":"body"}
+COMMAND: GET /session/17302a0bcddea2d435dd122ec2a23d68/element/f68901ad-8654-4d82-96a7-610aad01bb09/text - {}
+RESULT: {}
+COMMAND: DELETE /session/17302a0bcddea2d435dd122ec2a23d68 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
