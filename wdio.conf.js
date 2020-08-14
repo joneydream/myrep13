@@ -147,7 +147,7 @@ exports.config = {
 			['junit', {
 				outputDir: './reports/junit-results/',
 				outputFileFormat: function(options) {
-					return "results-${new Date().getTime()}.xml";
+					return 'results-${new Date().getTime()}.xml';
 						}
 					}
 				]
