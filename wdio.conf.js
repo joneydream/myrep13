@@ -145,8 +145,11 @@ exports.config = {
 				outputDir: './reports/json-results/'
 			}],
 			['junit', {
-				outputDir: './reports/junit-results/'
-			}]
+				outputDir: './reports/junit-results/',
+				outputFileFormat: function(options) {
+					return "results-${new Date().getTime()}.xml";
+					
+					}]
 			],
 			
 		
